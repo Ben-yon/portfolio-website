@@ -5,6 +5,8 @@ import {
   web,
   javascript,
   typescript,
+  java,
+  python,
   html,
   css,
   reactjs,
@@ -75,6 +77,14 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Java",
+    icon: java
+  },
+  {
+    name: "Python",
+    icon: python
   },
   {
     name: "TypeScript",
