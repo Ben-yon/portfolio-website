@@ -242,20 +242,20 @@ const projects = [
     source_code_link: "https://github.com/Ben-yon/train-app",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A portfolio website to see everything about me at a glance. Ranging from experience, projects and the likes.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "threejs",
         color: "pink-text-gradient",
       },
     ],
