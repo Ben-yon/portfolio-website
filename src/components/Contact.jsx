@@ -35,7 +35,7 @@ const Contact = () => {
     emailjs.send(
       process.env.EMAILJS_SERVICE_ID, 
       process.env.EMAILJS_TEMPLATE_ID,
-      process.env.EMAILJS_ACCOUNT_PUB_KEY,
+  
       {
         from_name: form.name,
         to_name: 'Benjamin',
@@ -43,7 +43,7 @@ const Contact = () => {
         to_email: 'bikeh95@gmail.com',
         message: form.message
       },
-      'eNpKZf-D6ZvWsj6pR'
+      process.env.EMAILJS_ACCOUNT_PUB_KEY
       ).then(() => {
         setLoading(false);
         alert("Thank you for reaching out, I will get back to you asap!")
