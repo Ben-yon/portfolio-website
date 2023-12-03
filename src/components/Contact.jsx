@@ -31,9 +31,6 @@ const Contact = () => {
     e.preventDefault()
     setLoading(true);
 
-    //service_9t9cq38
-    //template_k2vi16p
-    //eNpKZf-D6ZvWsj6pR
     
     emailjs.send(
       process.env.EMAILJS_SERVICE_ID, 
