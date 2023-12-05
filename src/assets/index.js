@@ -20,16 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import java from "./tech/java.png"
+import java from "./tech/java.png";
 import python from "./tech/python.png"
 
 import meta from "./company/meta.png";
-import quantum from './company/quantum.png';
-import nobleprog from './company/nobleprog.png'
-import symliq from './company/symliq.png';
+import quantum from "./company/quantum.png";
+import nobleprog from "./company/nobleprog.png";
+import symliq from "./company/symliq.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import weather from "./weather.png";
+import portfolio from "./portfolio.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,8 +57,8 @@ export {
   python,
   java,
   meta,
-  carrent,
-  jobit,
+  portfolio,
+  weather,
   tripguide,
   quantum,
   nobleprog,
