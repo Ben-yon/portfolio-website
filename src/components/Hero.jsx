@@ -1,9 +1,17 @@
 import { motion } from "framer-motion";
 
+import gsap from "gsap/gsap-core";
+
+import SplitType from 'split-type';
+
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+
+  const element = new SplitType('#name-header');
+  console.log(element)
+
   return (
       <section className="relative w-full h-screen mx-auto">
         <div className={`${styles.paddingX} absolute
@@ -14,7 +22,7 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 violet-gradient"/>
           </div>
           <div>
-            <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span
+            <h1 className={`${styles.heroHeadText} text-white`} id="name-header">Hi, I'm <span
             className="text-[#915eff]">Benjamin</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               I develop Odoo Modules, Mobile <br
