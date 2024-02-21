@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 import gsap from "gsap/gsap-core";
 
@@ -8,9 +9,14 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
-
-  const element = new SplitType('#name-header');
-  console.log(element)
+  useEffect(() => {
+    new SplitType('#name-header');
+    gsap.from('.char', {
+      x: 1000,
+      duration: 3,
+      ease: "bounce.in",
+    })
+  },[] )
 
   return (
       <section className="relative w-full h-screen mx-auto">
