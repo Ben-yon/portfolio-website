@@ -1,9 +1,10 @@
-import React, { Suspense, useEffect, useState } from "react";
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
+import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
-import { ComputersCanvas } from ".";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
@@ -36,7 +37,7 @@ const ComputerCanvas = () => {
   const [ isMobile, setIsMobile ] = useState(false)
 
   useEffect(() =>{
-    const mediaQuery = window.matchMedia(('max-width: 500px '));
+    const mediaQuery = window.matchMedia('max-width: 500px ');
 
     setIsMobile(mediaQuery.matches);
 

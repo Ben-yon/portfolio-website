@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 
-import gsap from "gsap/gsap-core";
+import gsap from "gsap";
 
 import SplitType from 'split-type';
 
@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 violet-gradient"/>
           </div>
           <div>
-            <h1 className={`${styles.heroHeadText} text-white`} id="name-header">Hi, I'm <span
+            <h1 className={`${styles.heroHeadText} text-white`} id="name-header">Hi, I&apos;m <span
             className="text-[#915eff]">Benjamin</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               I develop Odoo Modules, Mobile <br
