@@ -129,10 +129,40 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
+    company_name: "NatWest Group, UK(Remote)",
+    icon: natwest,
+    iconBg: "#383E56",
+    date: "July 2019 - May 2024",
+    points: [
+      "Building, extending and deploying Enterprise Resource Planning software which increased overall productivity across the group by over 40%.",
+      "Spearheaded the migration team that migrated the core business system from one major version to another with zero downtime.",
+      "Delivered a real-time Fuel Station Management and Monitoring system that reduced average reporting time and station losses by 90% and 23% respectively.",
+      "Mentoring junior developers to solve problems and resolve issues(fixing of bugs).",
+      "Liasing with business analysts to design and design sophisticated end user reports using the Business Intelligence and Analytics platform.",
+      "Actively brainstorming and elaborating on various ideas to help make applications efficient and more easy to use."
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Bigspark Limited, UK(Remote)",
+    icon: bigspark,
+    iconBg: "#383E56",
+    date: "July 2019 - May 2024",
+    points: [
+      "Building, extending and deploying Enterprise Resource Planning software which increased overall productivity across the group by over 40%.",
+      "Spearheaded the migration team that migrated the core business system from one major version to another with zero downtime.",
+      "Delivered a real-time Fuel Station Management and Monitoring system that reduced average reporting time and station losses by 90% and 23% respectively.",
+      "Mentoring junior developers to solve problems and resolve issues(fixing of bugs).",
+      "Liasing with business analysts to design and design sophisticated end user reports using the Business Intelligence and Analytics platform.",
+      "Actively brainstorming and elaborating on various ideas to help make applications efficient and more easy to use."
+    ],
+  },
+  {
+    title: "Software Engineer",
     company_name: "Quantum Group Limited, Ghana",
     icon: quantum,
     iconBg: "#383E56",
-    date: "July 2019 - Present",
+    date: "July 2019 - May 2024",
     points: [
       "Building, extending and deploying Enterprise Resource Planning software which increased overall productivity across the group by over 40%.",
       "Spearheaded the migration team that migrated the core business system from one major version to another with zero downtime.",
